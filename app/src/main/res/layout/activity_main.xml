@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Memory"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/availableMemoryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available memory" />
+
+        <TextView
+            android:id="@+id/totalMemoryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total memory" />
+
+        <TextView
+            android:id="@+id/lowMemoryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is low memory" />
+
+        <TextView
+            android:id="@+id/runtimeTotalMemoryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Runtime total memory" />
+
+        <TextView
+            android:id="@+id/runtimeFreeMemoryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Runtime free memory text view" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Battery"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/isChargingTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Is charging" />
+
+        <TextView
+            android:id="@+id/batteryLevelTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Battery level" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Storage"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/freeStorageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free storage" />
+
+        <TextView
+            android:id="@+id/totalStorageTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total storage" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network"
+            android:textAlignment="viewStart"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/networkTypeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Active network type" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
